@@ -1,4 +1,4 @@
-import type { JsonObject } from "npm:type-fest";
+import type { JsonObject } from "type-fest";
 import { Archetype } from "./archetype.ts";
 
 export type SafeEntity<

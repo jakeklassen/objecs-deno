@@ -1,4 +1,4 @@
-import type { JsonObject } from "npm:type-fest";
+import type { JsonObject } from "type-fest";
 import type { World } from "./world.ts";
 
 type SafeEntity<
