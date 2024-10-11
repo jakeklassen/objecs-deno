@@ -1,5 +1,13 @@
 {
   "imports": {
     "#/": "./src/"
+  },
+  "deploy": {
+    "project": "b7f66e79-2c07-4676-af3a-4848b66242e8",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "https://jsr.io/@std/http/1.0.8/file_server.ts"
   }
 }
