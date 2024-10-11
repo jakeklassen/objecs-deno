@@ -1,0 +1,5 @@
+{
+	"name": "@gamedev/objecs",
+	"version": "0.1.8",
+	"exports": "./mod.ts"
+}

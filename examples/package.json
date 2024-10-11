@@ -1,0 +1,40 @@
+{
+	"name": "examples",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "prettier --check 'src/**/*.ts'",
+		"lint:fix": "prettier --write 'src/**/*.ts'",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@types/color": "3.0.6",
+		"@types/file-saver": "2.0.7",
+		"@types/node": "22.7.5",
+		"@types/wicg-file-system-access": "2023.10.5",
+		"prettier": "^3.3.3",
+		"typescript": "5.6.3",
+		"vite": "^5.4.8"
+	},
+	"dependencies": {
+		"@tweakpane/core": "2.0.4",
+		"color": "4.2.3",
+		"dot-path-value": "0.0.11",
+		"fast-xml-parser": "4.5.0",
+		"file-saver": "2.0.5",
+		"gameinput": "0.0.9",
+		"jszip": "3.10.1",
+		"just-group-by": "2.2.0",
+		"just-random": "3.2.0",
+		"just-random-integer": "4.2.0",
+		"just-safe-get": "4.2.0",
+		"just-safe-set": "4.2.1",
+		"just-shuffle": "4.2.0",
+		"sharp": "0.33.5",
+		"tweakpane": "4.0.4",
+		"type-fest": "4.26.1"
+	}
+}
