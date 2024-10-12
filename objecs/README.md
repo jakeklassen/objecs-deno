@@ -18,4 +18,4 @@ The featured demo is the [shmup demo] (Cherry Bomb), a port of the [Lazy Devs](h
 [folder]: https://github.com/jakeklassen/objecs/tree/main/packages/examples/src/demos
 [miniplex]: https://www.npmjs.com/package/miniplex
 [shmup demo]: https://objecs.deno.dev/src/demos/shmup/
-[site]: https://objecs.deno.dev/src/demos/shmup/
+[site]: https://objecs.deno.dev/
