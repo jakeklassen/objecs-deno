@@ -11,7 +11,6 @@
     "npm:@tweakpane/core@2.0.4": "2.0.4",
     "npm:@types/color@3.0.6": "3.0.6",
     "npm:@types/file-saver@2.0.7": "2.0.7",
-    "npm:@types/node@*": "22.5.4",
     "npm:@types/node@22.7.5": "22.7.5",
     "npm:@types/wicg-file-system-access@2023.10.5": "2023.10.5",
     "npm:color@4.2.3": "4.2.3",
@@ -34,8 +33,8 @@
     "npm:type-fest@4.26.1": "4.26.1",
     "npm:type-fest@^4.26.1": "4.26.1",
     "npm:typescript@5.6.3": "5.6.3",
-    "npm:vite@5.4.9": "5.4.9_@types+node@22.5.4",
-    "npm:vite@^5.4.9": "5.4.9_@types+node@22.5.4"
+    "npm:vite@5.4.10": "5.4.10_@types+node@22.7.5",
+    "npm:vite@^5.4.10": "5.4.10_@types+node@22.7.5"
   },
   "jsr": {
     "@std/assert@1.0.6": {
@@ -430,12 +429,6 @@
     },
     "@types/file-saver@2.0.7": {
       "integrity": "sha512-dNKVfHd/jk0SkR/exKGj2ggkB45MAkzvWCaqLUUgkyjITkGNzH8H+yUwr+BLJUBjZOe9w8X3wgmXhZDRg1ED6A=="
-    },
-    "@types/node@22.5.4": {
-      "integrity": "sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==",
-      "dependencies": [
-        "undici-types"
-      ]
     },
     "@types/node@22.7.5": {
       "integrity": "sha512-jML7s2NAzMWc//QSJ1a3prpk78cOPchGvXJsC3C6R6PSMoooztvRVQEz89gmBTBY1SPMaqo5teB4uNHPdetShQ==",
@@ -1153,10 +1146,10 @@
     "util-deprecate@1.0.2": {
       "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
     },
-    "vite@5.4.9_@types+node@22.5.4": {
-      "integrity": "sha512-20OVpJHh0PAM0oSOELa5GaZNWeDjcAvQjGXy2Uyr+Tp+/D2/Hdz6NLgpJLsarPTA2QJ6v8mX2P1ZfbsSKvdMkg==",
+    "vite@5.4.10_@types+node@22.7.5": {
+      "integrity": "sha512-1hvaPshuPUtxeQ0hsVH3Mud0ZanOLwVTneA1EgbAM5LhaZEqyPWGRQ7BtaMvUrTDeEaC8pxtj6a6jku3x4z6SQ==",
       "dependencies": [
-        "@types/node@22.5.4",
+        "@types/node",
         "esbuild@0.21.5",
         "fsevents",
         "postcss",
@@ -1229,7 +1222,7 @@
             "npm:tweakpane@4.0.4",
             "npm:type-fest@4.26.1",
             "npm:typescript@5.6.3",
-            "npm:vite@^5.4.9"
+            "npm:vite@^5.4.10"
           ]
         }
       },
